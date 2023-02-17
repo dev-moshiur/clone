@@ -1,0 +1,51 @@
+
+
+
+.review{
+    display: flex;
+    overflow: hidden;
+    margin: 3rem auto;
+    box-shadow: -8px 33px 52px 14px rgba(0,0,0,0.1);
+    width: 84%;
+    padding: 2.5rem;
+    column-gap: 2rem;
+    align-items: center;
+    border-radius: 1.5rem;
+    .imgContainer{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            
+            height: 100%;
+        }
+
+    }
+    .textContainer{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.4rem;
+        .stars{
+            &>*{
+                color: rgb(254, 185, 51);
+                font-size: 2rem;
+            }
+        }
+        .text{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .name{
+            font-size: 1.1rem;
+            font-weight: 600;
+
+        }
+    }
+    
+
+}

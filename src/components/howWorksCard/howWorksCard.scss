@@ -1,0 +1,24 @@
+
+.workCom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    .imgContainer{
+        transition: 0.3s;
+        img{
+            height: 14rem;
+        }
+        &:hover{
+            transform: translateY(-0.6rem);
+        }
+    }
+    .head{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .text{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+}

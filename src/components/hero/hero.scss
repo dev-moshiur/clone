@@ -1,0 +1,48 @@
+
+
+.hero{
+    width: 84%;
+    margin: 0 auto;
+    margin-top: 78px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+    align-items: center;
+    .left{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        .topText{
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+        .bottomtext{
+            font-size: 1.1rem;
+        }
+        .btn{
+            padding:0.4rem 1.4rem;
+            
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            transition: 0.3s;
+            color: #fff;
+            width: fit-content;
+            background-color: rgb(140, 82, 255);
+            border: none;
+            &:hover{
+                background-color:rgb(152, 102, 253);
+
+            }
+        }
+
+    }
+    .right{
+        .embedContainer{
+            border: 5px solid rgb(140, 82, 255);
+            border-radius: 0.8rem;
+            overflow: hidden;
+        }
+
+    }
+}

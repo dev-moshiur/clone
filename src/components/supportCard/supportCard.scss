@@ -1,0 +1,50 @@
+
+
+.supportCard{
+    padding: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 2rem;
+    box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+
+    .texts{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+
+    
+
+    .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 8rem;
+
+        }
+    }
+    .head{
+        font-size: 1.5rem;
+        font-weight: 600;
+
+    }
+    .text{
+
+    }
+}
+button{
+    border: 2px solid rgb(140, 82, 255) ;
+     padding: 0.4rem 0rem;
+     border-radius: 0.64rem;
+     background-color: #fff;
+     
+     font-weight: 500;
+     transition: 0.3s;
+     &:hover{
+        background-color: rgb(140, 82, 255);
+        color: #fff;
+     }          
+}
+}

@@ -1,0 +1,104 @@
+
+
+.home{
+    width: 100%;
+    .heading{
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 3.4rem;
+        margin-bottom: 2.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.5rem;
+        .head{
+            font-size: 1.9rem;
+            font-weight: 600;
+
+        }
+        .tittle{
+            font-size: 0.9rem;
+
+        }
+
+    }
+    .supporthead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        row-gap: 0.2rem;
+        img{
+            height: 2.5rem;
+
+        }
+        .head{
+            font-size: 2.8rem;
+            font-weight: 600;
+
+        }
+        .tittle{
+            font-size: 1.2rem;
+
+        }
+    }
+    .trusthead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        row-gap: 0.2rem;
+        
+        .headwithLo{
+            font-size: 2.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            .iconLove{
+            height: 2.5rem;
+            font-size: 3rem;
+            margin-left: 0.4rem;
+            color: rgb(221, 46, 68);
+
+        }
+
+        }
+        .tittle{
+            font-size: 1.2rem;
+
+        }
+    }
+    .workContainer{
+        width: 84%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .featureCardContainer{
+        width: 84%;
+        margin: 0 auto;
+        display: grid;
+        column-gap: 5rem;
+        row-gap: 5rem;
+        grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+
+    }
+    .suportCardContainer{
+        width: 85%;
+        margin: 2rem auto;
+        display: grid;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    }
+    .trustContainer{
+        width: 84%;
+        margin: 0 auto;
+        .trust{
+            width: 100%;
+            
+        }
+    }
+}
