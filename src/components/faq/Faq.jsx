@@ -4,7 +4,7 @@ import { Add, KeyboardArrowDown, KeyboardArrowUp, Remove } from "@material-ui/ic
 import React, { useState } from "react";
 import "./faq.scss";
 export default function Faq() {
-  const [activeQNAIndex, setActiveQNAIndex] = useState(0);
+  const [activeQNAIndex, setActiveQNAIndex] = useState(-1);
   const qna = [
     {
       question: `What is the difference between email and request?`,
