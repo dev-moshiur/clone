@@ -1,5 +1,5 @@
 
-// import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import React from 'react'
 import './hero.scss'
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
         BoloForms is a Google Forms add on that allows you to add conditional logic to your forms. With BoloForms, you can create interactive workflows, approval flows & automate processes.
         </div>
         <div className="btn">
-          {/* <RocketLaunchIcon/> */}
+          <RocketLaunchIcon/>
           <span>
             Install For Free
           </span>
