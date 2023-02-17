@@ -65,6 +65,19 @@
         }
     }
 }
+@media (max-width:700px) {
+    .features{
+        .buttons{
+            flex-direction: column;
+            row-gap: 1rem;
+        }
+        .points{
+            flex-direction: column;
+        }
+
+    }
+    
+}
 
 
 

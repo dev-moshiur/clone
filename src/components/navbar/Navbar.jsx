@@ -1,9 +1,11 @@
 
 
-
-import React from 'react'
+import {Clear, Menu} from '@material-ui/icons'
+import React,{useState} from 'react'
+import ToggleMenu from '../toggleMenu/ToggleMenu'
 import './navbar.scss'
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className='navbar'>
       <div className="wrapper">
@@ -26,6 +28,16 @@ export default function Navbar() {
         <button>Install Now</button>
         <button>BoloForms Premium</button>
       </div>
+      <div className="menubar" onClick={()=>setMenuOpen((pre)=>!pre)}>
+        
+        {menuOpen && <Clear/>}
+        {!menuOpen && <Menu/>}
+        
+      </div>
+      <div className="toggle">
+        <ToggleMenu menuOpen={menuOpen}/>
+      </div>
+    
     </div> 
     </div>
   )

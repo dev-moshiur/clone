@@ -23,6 +23,8 @@ export default function Home() {
   return (
     <div className='home'>
       <Navbar/>
+      <SideNavbar/>
+
       <Hero/>
       <div className="heading">
         <div className="head">

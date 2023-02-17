@@ -49,3 +49,14 @@
     
 
 }
+@media (max-width:700px) {
+    .review{
+        padding: 1rem;
+        
+        .imgContainer{
+            height: 5rem;
+            width: 5rem;
+        }
+    }
+    
+}

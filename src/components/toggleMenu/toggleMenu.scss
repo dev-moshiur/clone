@@ -1,0 +1,49 @@
+
+
+.toggleMenu{
+    position: fixed;
+    top: 76px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 76px);
+    z-index: 4;
+    background-color: rgb(241,244,246);
+    padding: 6%;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+    &.active{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .links{
+        .link{
+            font-size: 1.4rem;
+            font-weight: 500;
+
+        }
+
+    }
+    .btn{
+        width: 99%;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        align-items: center;
+        padding:0.4rem 1.4rem;
+            
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 0.5rem;
+        transition: 0.3s;
+        color: rgb(140, 82, 255);
+        transition: 0.3s;
+        border: 2px solid rgb(140, 82, 255);
+        &:hover{
+            color: #fff;
+            background-color: rgb(140, 82, 255);
+        }
+
+    }
+}

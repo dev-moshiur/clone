@@ -17,6 +17,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .menubar{
+            display: none;
+        }
 
     
 
@@ -82,4 +85,38 @@
     }
 }
 
+}
+
+@media (max-width : 950px) {
+    .navbar{
+
+        .wrapper{
+            width: 90%;
+            
+            .left{
+                .navLinks{
+                    display: none;
+                }
+
+            }
+            .right{
+                display: none;
+
+            }
+            .toggle{
+                position: absolute;
+            }
+            .menubar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &>*{
+                    font-size: 2rem;
+                }
+            }
+
+        }
+    }
+
+    
 }

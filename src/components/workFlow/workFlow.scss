@@ -40,7 +40,7 @@
         }
         .line{
             height: 1px;
-            width: 6.5rem;
+            width: 4.5rem;
             background-color: #868585;
         }
         .right{
@@ -81,4 +81,19 @@
         font-size: 1.2rem;
 
     }
+}
+
+@media (max-width:800px) {
+    .workFlow{
+        padding: 2rem;
+        .mainContainer{
+            flex-direction: column;
+            .line{
+                width: 1px;
+            height: 2rem;
+
+            }
+        }
+    }
+    
 }
