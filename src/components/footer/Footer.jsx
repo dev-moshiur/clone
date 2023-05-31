@@ -117,7 +117,7 @@ export default function Footer() {
           <img src={`https://www.boloforms.com/_next/static/media/1f525.a7bd71d6.svg`} alt="" />
           <span>+</span>
           <img src={`https://www.boloforms.com/_next/static/media/2764.8838f014.svg`} alt="" />
-          <span>in India</span>
+          <span>in Bangladesh</span>
         </div>
         <div className="links">
           <Twitter/>
